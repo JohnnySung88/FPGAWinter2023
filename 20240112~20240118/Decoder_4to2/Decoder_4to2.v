@@ -12,10 +12,10 @@ in[1] in[0]  |  out[3] out[2] out[1] out[0]
    1     1   |      0      0      0      1
 
 */
-
-assign out[0] =    ;
-assign out[1] =    ;
-assign out[2] =    ;
-assign out[3] =    ;
+ 
+//assign out[0] = ;
+//assign out[1] = ;
+//assign out[2] = ;
+//assign out[3] = ;
 
 endmodule 
