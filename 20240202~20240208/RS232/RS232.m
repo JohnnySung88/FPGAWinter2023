@@ -36,5 +36,5 @@ for i = 0:255
     end
 end 
 acc = cor/2.56;
-fprintf("Correct Number:%d (in total 256)\n Accuarcy:%1.2f%% Percent\n", cor, acc);
+fprintf("Correct Number:%d (in total 256)\nAccuarcy:%1.2f%% Percent\n", cor, acc);
 toc
