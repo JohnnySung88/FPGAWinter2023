@@ -8,10 +8,10 @@ resend = 0;
 error = [];
 tic
 for i = 0:255
-    write(device,i,'unit8');
+    write(device,i,'uint8');
     fprintf("Send:%d",i)
 
-    rx = read(device,1,'unit8');
+    rx = read(device,1,'uint8');
 
     if rx == i
         cor = cor + 1;
@@ -36,5 +36,5 @@ for i = 0:255
     end
 end 
 acc = cor/2.56;
-fprintf("Correct Number:%d (in total 256)\n Accuarcy:%d%\n", cor, acc);
+fprintf("Correct Number:%d (in total 256)\n Accuarcy:%1.2f%% Percent\n", cor, acc);
 toc
