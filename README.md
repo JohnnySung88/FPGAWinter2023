@@ -1,4 +1,4 @@
-# FPGAWinter2024
+# FPGAWinter2023
 1/12 (五) 
 Introduction of Quartus
 Program the FPGA
